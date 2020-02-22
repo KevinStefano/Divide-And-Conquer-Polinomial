@@ -151,13 +151,12 @@ polinom KalikanDenganXPangkat(polinom pol, int pangkat) {
 }
 
 void polinom::BacaPolinomRandom() {
-    srand(time(0)); 
-
     for (int i=0;i<=this->cap;i++) {
         int n;
-        this->data[i] = rand()%50;
+        this->data[i] = rand()%30;
     }
 }
+
 
 void polinom::TulisPolinom() {
     for(int i=0;i<=this->cap;i++) {
