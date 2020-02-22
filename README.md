@@ -9,8 +9,8 @@ polinom yang diterapkan adalah algoritma dengan kompleksitas O(n^ log 3) dengan 
 
 ## Spesifikasi
 Terdapat 3 buah library (.h) yaitu
-     1. Polinom.h (Library untuk polinom)
-     2. BruteForce.h (Library untuk Agoritma Brute Force)
-     3. DivideAndConquer.h (Library untuk Algoritma DnC)
+      1. Polinom.h (Library untuk polinom)
+      2. BruteForce.h (Library untuk Agoritma Brute Force)
+      3. DivideAndConquer.h (Library untuk Algoritma DnC)
 Untuk menjalankan program dapat menggunakan main.cpp
 
