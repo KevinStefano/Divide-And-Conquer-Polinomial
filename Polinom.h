@@ -31,9 +31,9 @@ public:
     void ResetPolinom();
     
 
-    friend polinom KaliBruteForce (polinom pol1, polinom pol);  //Kali bruteforce
+    friend polinom KaliBruteForce (polinom pol1,polinom pol, int *tambah, int *kali) ;  //Kali bruteforce
     friend polinom KalikanDenganXPangkat(polinom pol,int pangkat);
-    friend void KaliDAC (polinom pol1, polinom pol2, polinom *poltot); //Kali Divide and Conquer
+    friend void KaliDAC (polinom pol1, polinom pol2, polinom *poltot, int *tambah, int *kali); //Kali Divide and Conquer
 };
 
 //Fungsi tambahan
